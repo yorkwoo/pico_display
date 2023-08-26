@@ -15,11 +15,10 @@ A small display to show information for PC connect with USB. Using Raspberry Pi 
 日後補上
 
 使用軟體：
-st7789-mpy: https://github.com/russhughes/st7789_mpy 為了便於使用 LCD, 我使用這個韌體當基礎
-ds3231-port: https://github.com/peterhinch/micropython-samples/blob/master/DS3231/ds3231_port.py
-ds18x20: https://github.com/robert-hh/Onewire_DS18X20
+過程中使用了很多外部模組，多虧了這些模組，省了不少工。
+* st7789-mpy: https://github.com/russhughes/st7789_mpy 為了便於使用 LCD, 我使用這個韌體當基礎而非 micropython.org 的正式版本。
+* ds3231-port: https://github.com/peterhinch/micropython-samples/blob/master/DS3231/ds3231_port.py
+* ds18x20: https://github.com/robert-hh/Onewire_DS18X20
 
 目錄結構:
 pico_lcd: 放到 Raspberry Pi Pico 上的檔案
-
-
